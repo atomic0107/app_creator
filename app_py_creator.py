@@ -2,7 +2,7 @@ import os
 import re
 import json
 import pprint
-
+#https://qiita.com/yoshizaki_kkgk/items/da9711c26e71522ad289
 #Linux
 #os.system("ls")
 #windows
@@ -50,7 +50,7 @@ def creator_app():
     cmd("mkdir " + app_name)
     cmd("chdir " + app_name)
     cmd("npm init -y")
-    cmd("npm install electron --save-dev")
+    #cmd("npm install electron --save-dev")
     cmd("npm install --save request")
     cmd("npm install --save request-promise")
     cmd("ls")
@@ -122,7 +122,7 @@ def creator_app():
         f.write("\n")
         f.write("  startUp();\n")
         f.write("});\n")
-        
+
     cmd("npm start")
 
 if __name__ == "__main__":
