@@ -10,7 +10,7 @@
     "author": "udagawa tomohiro",
     "license": "ISC",
     "devDependencies": {
-        "electron": "^6.0.12"
+        "electron": "^11.5.0"
     },
     "dependencies": {
         "request": "^2.88.0",
